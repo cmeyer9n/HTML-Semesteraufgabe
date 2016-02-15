@@ -1,10 +1,9 @@
-/* GENERAL */
 body {
     margin: 0;  background: #333;
 }
 h1 {
 position: inherit;
-  font-family: "Karla";
+  font-family: "Karla", "Helvetica", sans-serif;
   font-size: 200px;
 }
 
@@ -14,28 +13,22 @@ h3 {
   top: 20px;
   left: 0;
   width: 100%;
-  font-family: "karla";
+  font-family: "Karla", "Helvetica", sans-serif;
   font-size: 50px;
 }
 
-/*SIDEBAR*/
+
 .navbar {
     position: fixed;
-/* Sidebar Background */
     width: 250px;
-/* Width of side bar. WARNING: If you change this, change .listItemA:width */
     height: 100%;
     padding-top: 100px;
-/* Padding above the sidebar image. */
-    font-family: "Futura";
-/* Font for the sidebar (Remove to keep the same font as the rest of the document) */
+    font-family: "Futura", "Helvetica", sans-serif;
 }
 
 .navbar a {
     text-decoration: none;
-/* Removes the underline from links. */
     color: #000000;
-/* Text color of the menu items */
 }
 
 .navbar img {
@@ -56,18 +49,14 @@ h3 {
 .navbar ul li {
     list-style-type: none;
     background: #83C5E5;
-/* Background colour of the menu items. */
     color: #695D46;
-/* Text colour of the side bar titles. (Not the links). */
 }
 
 .listItemA {
     height: 40px;
     width: 29
     0px;
-/* Alter this to be the .sidebar:width PLUS 40 */
     transition: .4s;
-/* Speed of the hover animation */
     position: relative;
     left: -40px;
 }
@@ -133,7 +122,7 @@ h3 {
    top: 200px;
    left: 0px;
    width: 100%;
-   font-family: "karla";
+   font-family: "karla", "Helvetica", sans-serif;
    font-size: 50px;
    line-height: 50px;
    color: #D54E02;
@@ -181,7 +170,7 @@ h3 {
   top: 100px;
   left: 0px;
   width: 100%;
-  font-family: "karla";
+  font-family: "karla", "Helvetica", sans-serif;
   font-size: 50px;
   line-height: 50px;
   padding: 10px;
@@ -189,7 +178,7 @@ h3 {
 
 .akt {
    position: relative;
-   width: 100%; /* for IE 6 */
+   width: 100%;
 }
 
 .illus h2 {
@@ -198,7 +187,7 @@ h3 {
   top: 100px;
   left: 0;
   width: 100%;
-  font-family: "karla";
+  font-family: "karla", "Helvetica", sans-serif;
   font-size: 50px;
   padding: 10px;
   color: #ffffff;
@@ -214,7 +203,7 @@ h3 {
   left: 0px;
   bottom: 800px;
   width: 100%;
-  font-family: "karla";
+  font-family: "karla", "Helvetica", sans-serif;
   font-size: 50px;
   line-height: 50px;
   padding: 10px;
@@ -272,5 +261,5 @@ header div img {
 }
 
 .impressum p {
-  font-family: "futura"
+  font-family: "futura", "Helvetica", sans-serif;
 }
